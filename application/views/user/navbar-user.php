@@ -75,7 +75,7 @@
                                     <li>
                                         <div class="unit unit-spacing-xs">
                                             <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                            <div class="unit-body"><a class="link-phone" href="tel:#">+62 81281117900</a></div>
+                                            <div class="unit-body"><a class="link-phone" href="tel:#">+62 812-8111-7900</a></div>
                                         </div>
                                     </li>
                                     <li>
