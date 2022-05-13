@@ -143,15 +143,20 @@
                                         ?>
 
                                         <?php foreach ($subMenu as $sm) : ?>
-                                            <a class="rd-nav-link" href="<?= base_url($sm['url']); ?>">
-                                                <span><?= $sm['title']; ?></span>
-                                            </a>
+                                            <?php if ($sm['title']) : ?>
+                                                <li class="rd-nav-item">
+                                                <?php else : ?>
+                                                <li class="rd-nav-item">
+                                                <?php endif; ?>
+                                                <a class="rd-nav-link" href="<?= base_url($sm['url']); ?>">
+                                                    <span><?= $sm['title']; ?></span></a>
+                                                </li>
+                                            <?php endforeach; ?>
+
+                                            <!-- Divider -->
+                                            <hr class="rd-nav-item">
+
                                         <?php endforeach; ?>
-
-                                        <!-- Divider -->
-                                        <hr class="rd-nav-item">
-
-                                    <?php endforeach; ?>
 
                                 </ul>
                             </div>
