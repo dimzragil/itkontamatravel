@@ -20,22 +20,22 @@ class User extends CI_Controller
         $this->load->view('user/index', $data);
         $this->load->view('user/footer-user', $data);
     }
-    public function about()
+    public function tentangkami()
     {
 
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
         $this->load->view('user/navbar-user', $data);
-        $this->load->view('user/about', $data);
+        $this->load->view('user/tentangkami', $data);
         $this->load->view('user/footer-user', $data);
     }
-    public function cont()
+    public function kontak()
     {
 
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
         $this->load->view('user/navbar-user', $data);
-        $this->load->view('user/contact-us', $data);
+        $this->load->view('user/kontak', $data);
         $this->load->view('user/footer-user', $data);
     }
     public function layanan()

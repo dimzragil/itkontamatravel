@@ -199,7 +199,7 @@
         .form-label.form-label-auto {
 
             display: inline-block;
-            float: left;
+            float: none;
             text-align: left;
 
         }
