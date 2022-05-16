@@ -38,13 +38,13 @@ class User extends CI_Controller
         $this->load->view('user/contact-us', $data);
         $this->load->view('user/footer-user', $data);
     }
-    public function typography()
+    public function layanan()
     {
 
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
         $this->load->view('user/navbar-user', $data);
-        $this->load->view('user/typography', $data);
+        $this->load->view('user/layanan', $data);
         $this->load->view('user/footer-user', $data);
     }
 
