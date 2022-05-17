@@ -190,7 +190,7 @@
                 <!-- Product Big-->
                 <article class="product-big">
                     <div class="unit flex-column flex-md-row align-items-md-stretch">
-                        <div class="unit-left"><a class="product-big-figure" href="#"><img src="<?= base_url('assets2/'); ?>images/product-big-1-600x366.jpg" alt="" width="600" height="366" /></a></div>
+                        <div class="unit-left"><a class="product-big-figure" href="#"><img src="<?= base_url('assets2/'); ?>images/madinahtour.jpg" alt="" width="600" height="366" /></a></div>
                         <div class="unit-body">
                             <div class="product-big-body">
                                 <h5 class="product-big-title"><a href="#">Benidorm, Spain</a></h5>
