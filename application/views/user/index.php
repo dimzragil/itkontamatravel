@@ -239,7 +239,7 @@
 <!-- Different People-->
 <!-- Section Subscribe-->
 <section class="section bg-default text-center offset-top-50">
-    <div class="parallax-container" data-parallax-img="<?= base_url('assets2/'); ?>images/parallax-1-1920x850.jpg">
+    <div class="parallax-container" data-parallax-img="<?= base_url('assets2/'); ?>images/jemaahpesawat.jpg">
         <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-2-21">
             <div class="container">
                 <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span class="d-block font-weight-semi-bold">First-class Impressions</span><span class="d-block font-weight-light">are Waiting for You!</span></h2>
