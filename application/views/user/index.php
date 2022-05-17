@@ -108,8 +108,7 @@
                         </div>
                         <div class="unit-body">
                             <h5 class="box-icon-classic-title"><a href="#">Personalized Matching</a></h5>
-                            <p class="box-icon-classic-text">Our unique matching system lets you find just the tour you want for
-                                your next holiday.</p>
+                            <p class="box-icon-classic-text">Sistem pencocokan unik kami memungkinkan Anda menemukan tur yang Anda inginkan untuk liburan berikutnya</p>
                         </div>
                     </div>
                 </article>
@@ -122,8 +121,7 @@
                         </div>
                         <div class="unit-body">
                             <h5 class="box-icon-classic-title"><a href="#">Wide Variety of Tours</a></h5>
-                            <p class="box-icon-classic-text">We offer a wide variety of personally picked tours with destinations
-                                all over the globe.</p>
+                            <p class="box-icon-classic-text">Kami menawarkan berbagai macam tur tujuan yang dipilih secara pribadi di seluruh dunia</p>
                         </div>
                     </div>
                 </article>
@@ -136,8 +134,7 @@
                         </div>
                         <div class="unit-body">
                             <h5 class="box-icon-classic-title"><a href="#">Highly Qualified Service</a></h5>
-                            <p class="box-icon-classic-text">Our tour managers are qualified, skilled, and friendly to bring you
-                                the best service.</p>
+                            <p class="box-icon-classic-text">Semua manajer tur kami memenuhi syarat, terampil, dan ramah untuk memberikan Anda layanan terbaik</p>
                         </div>
                     </div>
                 </article>
@@ -150,8 +147,7 @@
                         </div>
                         <div class="unit-body">
                             <h5 class="box-icon-classic-title"><a href="#">24/7 Support</a></h5>
-                            <p class="box-icon-classic-text">You can always get professional support from our staff 24/7 and ask
-                                any question you have.</p>
+                            <p class="box-icon-classic-text">Anda selalu dapat memperoleh dukungan profesional dari staf kami 24/7 dan mengajukan pertanyaan apa pun yang Anda miliki</p>
                         </div>
                     </div>
                 </article>
@@ -164,8 +160,7 @@
                         </div>
                         <div class="unit-body">
                             <h5 class="box-icon-classic-title"><a href="#">Handpicked Hotels</a></h5>
-                            <p class="box-icon-classic-text">Our team offers only the best selection of affordable and luxury
-                                hotels to our clients.</p>
+                            <p class="box-icon-classic-text">Tim kami hanya menawarkan pilihan terbaik hotel terjangkau dan mewah untuk klien kami</p>
                         </div>
                     </div>
                 </article>
@@ -178,8 +173,7 @@
                         </div>
                         <div class="unit-body">
                             <h5 class="box-icon-classic-title"><a href="#">Best Price Guarantee</a></h5>
-                            <p class="box-icon-classic-text">If you find tours that are cheaper than ours, we will compensate the
-                                difference.</p>
+                            <p class="box-icon-classic-text">Jika Anda menemukan tur yang lebih murah dari kami, kami akan mengganti selisihnya.</p>
                         </div>
                     </div>
                 </article>
