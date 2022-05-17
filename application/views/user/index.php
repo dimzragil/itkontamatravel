@@ -2,7 +2,7 @@
 <!-- Image size 1920x678 -->
 <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="false" data-direction="vertical">
     <div class="swiper-wrapper text-left">
-        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url('assets2/'); ?>images/Umrah_Banner.jpg">
+        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url('assets2/'); ?>images/Kaaba.jpg">
             <div class="swiper-slide-caption section-md">
                 <div class="container">
                     <div class="row">
@@ -11,7 +11,7 @@
                                 Destinations with Our Travel Agency</h6>
                             <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100">
                                 <span>Explore</span><span class="font-weight-bold"> The World</span>
-                            </h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
+                            </h2><a class="button button-default-outline button-ujarak" href="<?= base_url('user/pendaftaran'); ?>" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
                         </div>
                     </div>
                 </div>

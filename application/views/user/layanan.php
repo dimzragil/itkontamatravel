@@ -2,10 +2,10 @@
 <section class="breadcrumbs-custom-inset">
   <div class="breadcrumbs-custom context-dark bg-overlay-60">
     <div class="container">
-      <h2 class="breadcrumbs-custom-title">Typography</h2>
+      <h2 class="breadcrumbs-custom-title">Layanan</h2>
       <ul class="breadcrumbs-custom-path">
         <li><a href="index.html">Home</a></li>
-        <li class="active">Typography</li>
+        <li class="active">Layanan</li>
       </ul>
     </div>
     <div class="box-position" style="background-image: url(images/breadcrumbs-bg.jpg);"></div>
