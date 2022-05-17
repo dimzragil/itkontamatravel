@@ -32,13 +32,13 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url('assets2/'); ?>images/slider-4-slide-3-1920x678.jpg">
+        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url('assets2/'); ?>images/kakbah22.jpg">
             <div class="swiper-slide-caption section-md">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10">
                             <h6 class="text-uppercase" data-caption-animate="fadeInRight" data-caption-delay="0">Build your Next
-                                Holiday Trip with Us</h6>
+                                Umroh and hajj Trip with Us</h6>
                             <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100">
                                 <span>Create</span><span class="font-weight-bold"> Your Tour</span>
                             </h2><a class="button button-default-outline button-ujarak" href="#" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
