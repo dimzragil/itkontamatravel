@@ -588,6 +588,89 @@
             </select>
           </div>
         </li>
+        <li class="form-line jf-required" data-type="control_fullname" id="id_45">
+          <label class="form-label form-label-left form-label-auto" id="label_45" for="first_45">
+            Keluarga Yang Dapat Dihubungi Ketika Darurat
+            <span class="form-required">
+              *
+            </span>
+          </label>
+          <div id="cid_45" class="form-input jf-required" data-layout="full">
+            <div data-wrapper-react="true">
+              <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+                <input type="text" id="first_45" name="q45_keluargaYang[first]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_45 given-name" size="10" value="" data-component="first" aria-labelledby="label_45 sublabel_45_first" required="" />
+                <label class="form-sub-label" for="first_45" id="sublabel_45_first" style="min-height:13px" aria-hidden="false"> Nama </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+                <input type="text" id="last_45" name="q45_keluargaYang[last]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_45 family-name" size="15" value="" data-component="last" aria-labelledby="label_45 sublabel_45_last" required="" />
+                <label class="form-sub-label" for="last_45" id="sublabel_45_last" style="min-height:13px" aria-hidden="false"> Hubungan </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line jf-required" data-type="control_phone" id="id_48">
+          <label class="form-label form-label-left form-label-auto" id="label_48" for="input_48_full">
+            Nomor Keluarga Yang Dapat Dihubungi Ketika Darurat
+            <span class="form-required">
+              *
+            </span>
+          </label>
+          <div id="cid_48" class="form-input jf-required" data-layout="half">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" id="input_48_full" name="q48_nomorKeluarga[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" data-defaultvalue="" autoComplete="section-input_48 tel-national" style="width:310px" data-masked="true" value="" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_48 sublabel_48_masked" required="" />
+              <label class="form-sub-label" for="input_48_full" id="sublabel_48_masked" style="min-height:13px" aria-hidden="false"> Please enter a valid phone number. </label>
+            </span>
+          </div>
+        </li>
+        <li class="form-line jf-required" data-type="control_address" id="id_35">
+          <label class="form-label form-label-left form-label-auto" id="label_35" for="input_35_addr_line1">
+            Alamat Keluarga Yang Dapat Dihubungi Ketika Darurat
+            <span class="form-required">
+              *
+            </span>
+          </label>
+          <div id="cid_35" class="form-input jf-required" data-layout="full">
+            <div summary="" class="form-address-table jsTest-addressField">
+              <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                  <span class="form-sub-label-container" style="vertical-align:top">
+                    <input type="text" id="input_35_addr_line1" name="q35_alamat[addr_line1]" class="form-textbox validate[required] form-address-line" data-defaultvalue="" autoComplete="section-input_35 address-line1" value="" data-component="address_line_1" aria-labelledby="label_35 sublabel_35_addr_line1" required="" />
+                    <label class="form-sub-label" for="input_35_addr_line1" id="sublabel_35_addr_line1" style="min-height:13px" aria-hidden="false"> Jalan </label>
+                  </span>
+                </span>
+              </div>
+              <div class="form-address-line-wrapper jsTest-address-line-wrapperField" style="display:none">
+                <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                  <span class="form-sub-label-container" style="vertical-align:top">
+                    <input type="text" id="input_35_addr_line2" name="q35_alamat[addr_line2]" class="form-textbox form-address-line" data-defaultvalue="" autoComplete="section-input_35 off" value="" data-component="address_line_2" aria-labelledby="label_35 sublabel_35_addr_line2" />
+                    <label class="form-sub-label" for="input_35_addr_line2" id="sublabel_35_addr_line2" style="min-height:13px" aria-hidden="false"> Street Address Line 2 </label>
+                  </span>
+                </span>
+              </div>
+              <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                <span class="form-address-line form-address-city-line jsTest-address-lineField ">
+                  <span class="form-sub-label-container" style="vertical-align:top">
+                    <input type="text" id="input_35_city" name="q35_alamat[city]" class="form-textbox validate[required] form-address-city" data-defaultvalue="" autoComplete="section-input_35 address-level2" value="" data-component="city" aria-labelledby="label_35 sublabel_35_city" required="" />
+                    <label class="form-sub-label" for="input_35_city" id="sublabel_35_city" style="min-height:13px" aria-hidden="false"> Kota </label>
+                  </span>
+                </span>
+                <span class="form-address-line form-address-state-line jsTest-address-lineField ">
+                  <span class="form-sub-label-container" style="vertical-align:top">
+                    <input type="text" id="input_35_state" name="q35_alamat[state]" class="form-textbox validate[required] form-address-state" data-defaultvalue="" autoComplete="section-input_35 address-level1" value="" data-component="state" aria-labelledby="label_35 sublabel_35_state" required="" />
+                    <label class="form-sub-label" for="input_35_state" id="sublabel_35_state" style="min-height:13px" aria-hidden="false"> Provinsi </label>
+                  </span>
+                </span>
+              </div>
+              <div class="form-address-line-wrapper jsTest-address-line-wrapperField" style="display:none">
+                <span class="form-address-line form-address-zip-line jsTest-address-lineField form-address-hiddenLine" style="display:none">
+                  <span class="form-sub-label-container" style="vertical-align:top">
+                    <input type="text" id="input_35_postal" name="q35_alamat[postal]" class="form-textbox form-address-postal" data-defaultvalue="" autoComplete="section-input_35 postal-code" value="" data-component="zip" aria-labelledby="label_35" />
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
         <li class="form-line" data-type="control_button" id="id_2">
           <div id="cid_2" class="form-input-wide" data-layout="full">
             <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField">
