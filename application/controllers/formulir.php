@@ -16,7 +16,10 @@ class Formulir extends CI_Controller
 
         $this->load->view('user/formulirH', $data);
         $this->load->view('user/formulir', $data);
+    }
 
+    public function proses()
+    {
         $formulir = [
             'program' => $this->input->post('program'),
             'nama' => $this->input->post(''),
