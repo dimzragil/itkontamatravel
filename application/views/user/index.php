@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url('assets2/'); ?>images/kakbah1920x678.jpg">
+        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url('assets2/'); ?>images/vzenn2.jpg">
             <div class="swiper-slide-caption section-md">
                 <div class="container">
                     <div class="row">
