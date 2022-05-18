@@ -252,7 +252,7 @@
         <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15" data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-1-270x195.jpg" alt="" width="270" height="195" />
+                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gambarkecil22.jpg" alt="" width="270" height="195" />
                 </div>
                 <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-1-270x195.jpg" alt="" width="270" height="195" /></a>
                 </div>
