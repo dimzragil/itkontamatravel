@@ -11,7 +11,7 @@
                                 Destinations with Our Travel Agency</h6>
                             <h2 class="oh font-weight-light" data-caption-animate="slideInUp" data-caption-delay="100">
                                 <span>Explore</span><span class="font-weight-bold"> The World</span>
-                            </h2><a class="button button-default-outline button-ujarak" href="<?= base_url('user/pendaftaran'); ?>" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
+                            </h2><a class="button button-default-outline button-ujarak" href="<?= base_url('formulir/pendaftaran'); ?>" data-caption-animate="fadeInLeft" data-caption-delay="0">Get in touch</a>
                         </div>
                     </div>
                 </div>
