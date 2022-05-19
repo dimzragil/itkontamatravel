@@ -674,8 +674,9 @@
         <li class="form-line" data-type="control_button" id="id_2">
           <div id="cid_2" class="form-input-wide" data-layout="full">
             <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField">
-              <a href="<?= base_url('formulir/proses') ?>"></a>
-              <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Submit</button>
+              <a href="<?= base_url('formulir/proses'); ?>">
+                <button type="submit" id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Submit</button>
+              </a>
             </div>
           </div>
         </li>
