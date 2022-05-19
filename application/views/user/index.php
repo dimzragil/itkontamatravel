@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url('assets2/'); ?>images/kakbah1920x678.jpg">
+        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url('assets2/'); ?>images/vzenn2.jpg">
             <div class="swiper-slide-caption section-md">
                 <div class="container">
                     <div class="row">
@@ -210,7 +210,7 @@
                 <!-- Product Big-->
                 <article class="product-big">
                     <div class="unit flex-column flex-md-row align-items-md-stretch">
-                        <div class="unit-left"><a class="product-big-figure" href="#"><img src="<?= base_url('assets2/'); ?>images/product-big-2-600x366.jpg" alt="" width="600" height="366" /></a></div>
+                        <div class="unit-left"><a class="product-big-figure" href="#"><img src="<?= base_url('assets2/'); ?>images/kotamekkah22.jpg" alt="" width="600" height="366" /></a></div>
                         <div class="unit-body">
                             <div class="product-big-body">
                                 <h5 class="product-big-title"><a href="#">Mauritius Island, Africa</a></h5>
@@ -252,49 +252,49 @@
         <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-xl-items="5" data-xxl-items="6" data-stage-padding="15" data-xxl-stage-padding="0" data-margin="30" data-autoplay="true" data-nav="true" data-dots="true">
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-1-270x195.jpg" alt="" width="270" height="195" />
+                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gambarkecil22.jpg" alt="" width="270" height="195" />
                 </div>
                 <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-1-270x195.jpg" alt="" width="270" height="195" /></a>
                 </div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-2-270x195.jpg" alt="" width="270" height="195" />
+                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/mass1.jpg" alt="" width="270" height="195" />
                 </div>
                 <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-2-270x195.jpg" alt="" width="270" height="195" /></a>
                 </div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-3-270x195.jpg" alt="" width="270" height="195" />
+                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/mass2.jpg" alt="" width="270" height="195" />
                 </div>
                 <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-3-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-3-270x195.jpg" alt="" width="270" height="195" /></a>
                 </div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-4-270x195.jpg" alt="" width="270" height="195" />
+                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/mass3.jpg" alt="" width="270" height="195" />
                 </div>
                 <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-4-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-4-270x195.jpg" alt="" width="270" height="195" /></a>
                 </div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-5-270x195.jpg" alt="" width="270" height="195" />
+                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/mass4.jpg" alt="" width="270" height="195" />
                 </div>
                 <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-5-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-5-270x195.jpg" alt="" width="270" height="195" /></a>
                 </div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-6-270x195.jpg" alt="" width="270" height="195" />
+                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/mass5.jpg" alt="" width="270" height="195" />
                 </div>
                 <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-6-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-6-270x195.jpg" alt="" width="270" height="195" /></a>
                 </div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-7-270x195.jpg" alt="" width="270" height="195" />
+                <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/mass6.jpg" alt="" width="270" height="195" />
                 </div>
                 <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-7-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-7-270x195.jpg" alt="" width="270" height="195" /></a>
                 </div>
