@@ -8,7 +8,7 @@
         <li class="active">Layanan</li>
       </ul>
     </div>
-    <div class="box-position" style="background-image: url(images/breadcrumbs-bg.jpg);"></div>
+    <div class="box-position" style="background-image: url(<?= base_url('assets2/'); ?>images/umrohpelayanan.jpg);"></div>
   </div>
 </section>
 <!-- Base typography-->
@@ -28,9 +28,10 @@
                   <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span>
                   </div><a class="product-big-reviews" href="#">4 customer reviews</a>
                 </div>
-                <p class="product-big-text">Benidorm is a buzzing resort with a big reputation for beach holidays.
-                  Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...</p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                <div class="product-big-price-wrap"><span class="product-big-price">$790</span></div>
+                <p class="product-big-text">Berkunjung ke kota Madinah, tak mungkin melepaskan diri dari berziarah ke Masjid Nabawi.
+                  Bangunan Masjid Nabawi yang terletak di tengah-tengah kota Madinah itu bagaikan sebuah poros dari segala keindahan di kota itu.
+                  Di waktu malam, bangunan itu seperti memantulkan sinar bila dilihat dari kejauhan.</p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
+                <div class="product-big-price-wrap"><span class="product-big-price">$15.000.000,00</span></div>
               </div>
             </div>
           </div>
@@ -51,7 +52,7 @@
                 <p class="product-big-text">The beautiful and inviting island nation of Mauritius is an ideal ‘flop
                   and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...
                 </p><a class="button button-black-outline button-ujarak" href="#">Buy This Tour</a>
-                <div class="product-big-price-wrap"><span class="product-big-price">$890</span></div>
+                <div class="product-big-price-wrap"><span class="product-big-price">$20.000.000,00</span></div>
               </div>
             </div>
           </div>
