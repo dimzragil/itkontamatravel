@@ -193,7 +193,7 @@
                         <div class="unit-left"><a class="product-big-figure" href="#"><img src="<?= base_url('assets2/'); ?>images/madinahtour.jpg" alt="" width="600" height="366" /></a></div>
                         <div class="unit-body">
                             <div class="product-big-body">
-                                <h5 class="product-big-title"><a href="#">Benidorm, Spain</a></h5>
+                                <h5 class="product-big-title"><a href="#">Masjid Nabawi, Madinah</a></h5>
                                 <div class="group-sm group-middle justify-content-start">
                                     <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span>
                                     </div><a class="product-big-reviews" href="#">4 customer reviews</a>
@@ -213,7 +213,7 @@
                         <div class="unit-left"><a class="product-big-figure" href="#"><img src="<?= base_url('assets2/'); ?>images/kotamekkah22.jpg" alt="" width="600" height="366" /></a></div>
                         <div class="unit-body">
                             <div class="product-big-body">
-                                <h5 class="product-big-title"><a href="#">Mauritius Island, Africa</a></h5>
+                                <h5 class="product-big-title"><a href="#">Masjidil Haram, Mekkah</a></h5>
                                 <div class="group-sm group-middle justify-content-start">
                                     <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span>
                                     </div><a class="product-big-reviews" href="#">5 customer reviews</a>
