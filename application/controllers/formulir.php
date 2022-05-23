@@ -15,8 +15,7 @@ class Formulir extends CI_Controller
 
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
-        $this->load->view('user/formulirH', $data);
-        $this->load->view('user/formulir', $data);
+        $this->load->view('user/formdaftar', $data);
     }
 
     public function proses()
