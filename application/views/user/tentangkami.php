@@ -4,14 +4,14 @@
     <div class="container">
       <h2 class="breadcrumbs-custom-title">About</h2>
     </div>
-    <div class="box-position" style="background-image: url(<?= base_url('assets2/'); ?>images/breadcrumbs-bg.jpg);"></div>
+    <div class="box-position" style="background-image: url(<?= base_url('assets2/'); ?>images/logoo2.jpg);"></div>
   </div>
 </section>
 <!-- Why choose us-->
 <section class="section section-sm section-first bg-default text-md-left">
   <div class="container">
     <div class="row row-50 justify-content-center align-items-xl-center">
-      <div class="col-md-10 col-lg-5 col-xl-6"><img src="<?= base_url('assets2/'); ?>images/about-1-519x564.jpg" alt="" width="519" height="564" />
+      <div class="col-md-10 col-lg-5 col-xl-6"><img src="<?= base_url('assets2/'); ?>images/nanya7.jpg" alt="" width="519" height="564" />
       </div>
       <div class="col-md-10 col-lg-7 col-xl-6">
         <h1 class="text-spacing-25 font-weight-normal title-opacity-9">Why choose us</h1>
