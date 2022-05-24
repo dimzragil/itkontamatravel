@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form class="formulir" action="<?= base_url('formulir/proses'); ?>" method="POST">
+    <form class="form" action="<?= base_url('formulir/proses'); ?>" method="POST">
         <div class="wrapper">
             <div class="title">
                 Formulir Pendaftaran
@@ -53,37 +53,195 @@
                 </div>
                 <div class="inputfield">
                     <label>No. Identitas <br>(KTP, NIK, SIM)</br></label>
-                    <input type="password" class="input">
+                    <input type="text" name="no_id" class="input">
                 </div>
                 <div class="inputfield">
-                    <label>Confirm Password</label>
-                    <input type="password" class="input">
+                    <label>Nama Ayah Kandung</label>
+                    <input type="text" name="nama_ayah" class="input">
                 </div>
                 <div class="inputfield">
-                    <label>Gender</label>
-                    <div class="custom_select">
-                        <select>
-                            <option value="">Select</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                        </select>
+                    <label>Tempat Lahir</label>
+                    <input type="text" name="tempat_lahir" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Tanggal Lahir</label>
+                    <input type="date" name="tanggal_lahir" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Nomor Paspor</label>
+                    <input type="text" name="no_paspor" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Tempat Dikeluarkan Paspor</label>
+                    <input type="text" name="keluar_paspor" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Tanggal Dikeluarkan Paspor</label>
+                    <input type="date" name="tg_keluar_paspor" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Masa Berlaku Paspor</label>
+                    <input type="date" name="masa_berlaku_paspor" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Jenis Kelamin</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="jenis_kelamin" id="inlineRadio1" value="Laki-Laki">
+                        <label class="form-check-label" for="inlineRadio1">Laki-Laki</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="jenis_kelamin" id="inlineRadio2" value="Perempuan">
+                        <label class="form-check-label" for="inlineRadio2">Perempuan</label>
                     </div>
                 </div>
                 <div class="inputfield">
-                    <label>Email Address</label>
-                    <input type="text" class="input">
+                    <label>Golongan Darah</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="goldar" id="inlineRadio1" value="A">
+                        <label class="form-check-label" for="inlineRadio1">A</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="goldar" id="inlineRadio2" value="B">
+                        <label class="form-check-label" for="inlineRadio2">B</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="goldar" id="inlineRadio2" value="AB">
+                        <label class="form-check-label" for="inlineRadio2">AB</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="goldar" id="inlineRadio2" value="O">
+                        <label class="form-check-label" for="inlineRadio2">O</label>
+                    </div>
                 </div>
                 <div class="inputfield">
-                    <label>Phone Number</label>
-                    <input type="text" class="input">
+                    <label>Status Perkawinan</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="status_perkawinan" id="inlineRadio1" value="Menikah">
+                        <label class="form-check-label" for="inlineRadio1">Menikah</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="status_perkawinan" id="inlineRadio2" value="Belum Menikah">
+                        <label class="form-check-label" for="inlineRadio2">Belum Menikah</label>
+                    </div>
                 </div>
                 <div class="inputfield">
-                    <label>Address</label>
-                    <textarea class="textarea"></textarea>
+                    <label>Alamat</label>
+                    <input type="text" name="alamat" class="input" placeholder="Jalan">
                 </div>
                 <div class="inputfield">
-                    <label>Postal Code</label>
-                    <input type="text" class="input">
+                    <label></label>
+                    <input type="text" name="alamat" class="input" placeholder="Kota">
+                </div>
+                <div class="inputfield">
+                    <label>Email</label>
+                    <input type="email" name="email" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Telepon Rumah</label>
+                    <input type="tel" name="telp_rumah" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Telepon Seluler</label>
+                    <input type="tel" name="telp_hp" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Pendidikan Terakhir</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="pendidikan" id="inlineCheckbox1" value="SD">
+                        <label class="form-check-label" for="inlineCheckbox1">SD</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="pendidikan" id="inlineCheckbox2" value="SMP">
+                        <label class="form-check-label" for="inlineCheckbox2">SMP</label>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label></label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="pendidikan" id="inlineCheckbox1" value="SMA">
+                        <label class="form-check-label" for="inlineCheckbox1">SMA</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="pendidikan" id="inlineCheckbox2" value="D3/S1/S2/S3">
+                        <label class="form-check-label" for="inlineCheckbox2">D3/S1/S2/S3</label>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label>Pekerjaan</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox1" value="PNS">
+                        <label class="form-check-label" for="inlineCheckbox1">PNS</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox2" value="TNI">
+                        <label class="form-check-label" for="inlineCheckbox2">TNI</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox2" value="Pedagang">
+                        <label class="form-check-label" for="inlineCheckbox2">Pedagang</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox2" value="Petani">
+                        <label class="form-check-label" for="inlineCheckbox2">Petani</label>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label></label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox1" value="Swasta">
+                        <label class="form-check-label" for="inlineCheckbox1">Swasta</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox2" value="Wiraswasta">
+                        <label class="form-check-label" for="inlineCheckbox2">Wiraswasta</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox2" value="Pelajar">
+                        <label class="form-check-label" for="inlineCheckbox2">Pelajar</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox2" value="Ibu Rumah Tangga">
+                        <label class="form-check-label" for="inlineCheckbox2">Ibu Rumah Tangga</label>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label></label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox1" value="">
+                        <label class="form-check-label" for="inlineCheckbox1">Lainnya</label>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label>Keluarga Yang Ikut Umroh</label>
+                    <input type="text" name="keluarga_ikut_umroh" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Nomor Keluarga Yang Ikut Umroh</label>
+                    <input type="tel" name="nomor_keluarga_ikut_umroh" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Informasi Pendaftaran</label>
+                    <input type="text" name="informasi_pendaftaran" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Penyakit Kronis Yang Diderita</label>
+                    <input type="text" name="penyakit" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Keluarga Yang Dapat Dihubungi Ketika Darurat</label>
+                    <input type="text" name="keluarga_darurat" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Nomor Telepon Keluarga</label>
+                    <input type="tel" name="nomor_keluarga_darurat" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Alamat Keluarga</label>
+                    <input type="text" name="alamat_keluarga_darurat" class="input" placeholder="Jalan">
+                </div>
+                <div class="inputfield">
+                    <label></label>
+                    <input type="text" name="alamat_keluarga_darurat" class="input" placeholder="Kota">
                 </div>
                 <div class="inputfield terms">
                     <label class="check">
@@ -93,7 +251,7 @@
                     <p>Agreed to terms and conditions</p>
                 </div>
                 <div class="inputfield">
-                    <input href="<?= base_url('formulir/proses'); ?>" type="submit" value="Register" class="btn">
+                    <input href="<?= base_url('formulir/proses'); ?>" type="submit" value="Formulir Pendaftaran" class="btn">
                 </div>
             </div>
         </div>
