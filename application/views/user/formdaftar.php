@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form class="formulir" action="<?= base_url('formulir/proses'); ?>" method="POST">
+    <form class="form" action="<?= base_url('formulir/proses'); ?>" method="POST">
         <div class="wrapper">
             <div class="title">
                 Formulir Pendaftaran
@@ -203,6 +203,45 @@
                         <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox2" value="Ibu Rumah Tangga">
                         <label class="form-check-label" for="inlineCheckbox2">Ibu Rumah Tangga</label>
                     </div>
+                </div>
+                <div class="inputfield">
+                    <label></label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="pekerjaan" id="inlineCheckbox1" value="">
+                        <label class="form-check-label" for="inlineCheckbox1">Lainnya</label>
+                    </div>
+                </div>
+                <div class="inputfield">
+                    <label>Keluarga Yang Ikut Umroh</label>
+                    <input type="text" name="keluarga_ikut_umroh" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Nomor Keluarga Yang Ikut Umroh</label>
+                    <input type="tel" name="nomor_keluarga_ikut_umroh" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Informasi Pendaftaran</label>
+                    <input type="text" name="informasi_pendaftaran" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Penyakit Kronis Yang Diderita</label>
+                    <input type="text" name="penyakit" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Keluarga Yang Dapat Dihubungi Ketika Darurat</label>
+                    <input type="text" name="keluarga_darurat" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Nomor Telepon Keluarga</label>
+                    <input type="tel" name="nomor_keluarga_darurat" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Alamat Keluarga</label>
+                    <input type="text" name="alamat_keluarga_darurat" class="input" placeholder="Jalan">
+                </div>
+                <div class="inputfield">
+                    <label></label>
+                    <input type="text" name="alamat_keluarga_darurat" class="input" placeholder="Kota">
                 </div>
                 <div class="inputfield terms">
                     <label class="check">
