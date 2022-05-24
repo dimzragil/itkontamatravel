@@ -143,7 +143,7 @@
     <div class="owl-item">
       <!-- Thumbnail Classic-->
       <article class="thumbnail thumbnail-mary">
-        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-13-420x308.jpg" alt="" width="420" height="308" />
+        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/mesir2.jpg" alt="" width="420" height="308" />
         </div>
         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-13-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-13-420x308.jpg" alt="" width="420" height="308" /></a>
         </div>
