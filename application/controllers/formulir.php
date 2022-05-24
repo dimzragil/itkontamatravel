@@ -54,6 +54,6 @@ class Formulir extends CI_Controller
 
         $this->db->insert('formulir', $formulir);
 
-        redirect('user/index');
+        redirect('user');
     }
 }
