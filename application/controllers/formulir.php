@@ -15,7 +15,7 @@ class Formulir extends CI_Controller
 
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
-        $this->load->view('user/formdaftar', $data);
+        $this->load->view('user/pendaftaran', $data);
     }
 
     public function proses()
@@ -28,7 +28,7 @@ class Formulir extends CI_Controller
         $this->form_validation->set_rules('nama_ayah', 'Nama_Ayah', 'required');
 
         if ($this->form_validation->run() == false) {
-            $this->load->view('user/formdaftar', $data);
+            $this->load->view('user/pendaftaran', $data);
         } else {
             $formulir = [
                 "program" => $this->input->post('program'),
