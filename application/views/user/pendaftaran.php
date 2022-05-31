@@ -29,27 +29,27 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Nama Lengkap</label>
-                            <input type="text" placeholder="Enter your name" required>
+                            <input type="text" name="nama" placeholder="Enter your name" required>
                         </div>
 
                         <div class="input-field">
                             <label>Tempat Lahir</label>
-                            <input type="text" placeholder="Enter Place" required>
+                            <input type="text" name="tempat_lahir" placeholder="Enter Place" required>
                         </div>
 
                         <div class="input-field">
                             <label>Tanggal Lahir</label>
-                            <input type="date" placeholder="Enter Date" required>
+                            <input type="date" name="tanggal_lahir" placeholder="Enter Date" required>
                         </div>
 
                         <div class="input-field">
                             <label>Nomor Telepon</label>
-                            <input type="number" placeholder="Enter mobile number" required>
+                            <input type="number" name="telp_hp" placeholder="Enter mobile number" required>
                         </div>
 
                         <div class="input-field">
                             <label>Jenis Kelamin</label>
-                            <select required>
+                            <select name="jenis_kelamin" required>
                                 <option disabled selected>Select gender</option>
                                 <option>Laki-Laki</option>
                                 <option>Perempuan</option>
@@ -58,7 +58,11 @@
 
                         <div class="input-field">
                             <label>Program</label>
-                            <input type="text" placeholder="Enter your ccupation" required>
+                            <select name="program" required>
+                                <option disabled selected>Pilih Program</option>
+                                <option>Umroh Regular</option>
+                                <option>Umroh Plus</option>
+                            </select>
                         </div>
                     </div>
                 </div>
@@ -69,32 +73,32 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>No. Identitas (KTP/NIK/SIM)</label>
-                            <input type="text" placeholder="Enter ID type" required>
+                            <input type="text" name="no_id" placeholder="Enter ID type" required>
                         </div>
 
                         <div class="input-field">
                             <label>No. Paspor</label>
-                            <input type="number" placeholder="Enter ID number" required>
+                            <input type="number" name="no_paspor" placeholder="Enter ID number" required>
                         </div>
 
                         <div class="input-field">
                             <label>Masa Berlaku Paspor</label>
-                            <input type="date" placeholder="Enter issued authority" required>
+                            <input type="date" name="masa_berlaku_paspor" placeholder="Enter issued authority" required>
                         </div>
 
                         <div class="input-field">
                             <label>Tempat Dikeluarkan Paspor</label>
-                            <input type="text" placeholder="Enter issued state" required>
+                            <input type="text" name="keluar_paspor" placeholder="Enter issued state" required>
                         </div>
 
                         <div class="input-field">
                             <label>Tanggal Dikeluarkan Paspor</label>
-                            <input type="date" placeholder="Enter your issued date" required>
+                            <input type="date" name="tg_keluar_paspor" placeholder="Enter your issued date" required>
                         </div>
 
                         <div class="input-field">
                             <label>Email</label>
-                            <input type="email" placeholder="Enter your email" required>
+                            <input type="email" name="email" placeholder="Enter your email" required>
                         </div>
                     </div>
 
@@ -107,73 +111,83 @@
 
             <div class="form second">
                 <div class="details address">
-                    <span class="title">Address Details</span>
+                    <span class="title">More Details</span>
 
                     <div class="fields">
                         <div class="input-field">
                             <label>Jalan</label>
-                            <input type="text" placeholder="Jalan" required>
+                            <input type="text" name="alamat" placeholder="Jalan" required>
                         </div>
 
                         <div class="input-field">
                             <label>Kota</label>
-                            <input type="text" placeholder="Enter Kota" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Provinsi</label>
-                            <input type="text" placeholder="Enter Provinsi" required>
-                        </div>
-
-                        <div class="input-field">
-                            <label>Golongan Darah</label>
-                            <input type="text" placeholder="A/B/AB/O" required>
+                            <input type="text" name="alamat" placeholder="Enter Kota" required>
                         </div>
 
                         <div class="input-field">
                             <label>Status Perkawinan</label>
-                            <input type="number" placeholder="" required>
+                            <select name="status_perkawinan" required>
+                                <option disabled selected>Select</option>
+                                <option value="Menikah">Menikah</option>
+                                <option value="Belum Menikah">Belum Menikah</option>
+                            </select>
                         </div>
 
                         <div class="input-field">
-                            <label>Ward Number</label>
-                            <input type="number" placeholder="Enter ward number" required>
+                            <label>Golongan Darah</label>
+                            <input type="text" name="goldar" placeholder="A/B/AB/O" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Pendidikan Terakhir</label>
+                            <select name="pendidikan" required>
+                                <option disabled selected>Select</option>
+                                <option value="SD">SD</option>
+                                <option value="SMP">SMP</option>
+                                <option value="SMA">SMA</option>
+                                <option value="D3/S1/S2/S3">D3/S1/S2/S3</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Pekerjaan</label>
+                            <input type="text" name="pekerjaan" placeholder="Enter Pekerjaan" required>
                         </div>
                     </div>
                 </div>
 
                 <div class="details family">
-                    <span class="title">Family Details</span>
+                    <span class="title">Keluarga Details</span>
 
                     <div class="fields">
                         <div class="input-field">
-                            <label>Father Name</label>
-                            <input type="text" placeholder="Enter father name" required>
+                            <label>Keluarga Yang Ikut Umroh</label>
+                            <input type="text" name="keluarga_ikut_umroh" placeholder="Nama" required>
                         </div>
 
                         <div class="input-field">
-                            <label>Mother Name</label>
-                            <input type="text" placeholder="Enter mother name" required>
+                            <label>ㅤ</label>
+                            <input type="text" name="keluarga_ikut_umroh" placeholder="Hubungan" required>
                         </div>
 
                         <div class="input-field">
-                            <label>Grandfather</label>
-                            <input type="text" placeholder="Enter grandfther name" required>
+                            <label>ㅤ</label>
+                            <input type="number" name="nomor_keluarga_ikut_umroh" placeholder="Nomor Telepon" required>
                         </div>
 
                         <div class="input-field">
-                            <label>Spouse Name</label>
-                            <input type="text" placeholder="Enter spouse name" required>
+                            <label>Keluarga Yang Dapat Dihubungi (Darurat)</label>
+                            <input type="text" name="keluarga_darurat" placeholder="Nama" required>
                         </div>
 
                         <div class="input-field">
-                            <label>Father in Law</label>
-                            <input type="text" placeholder="Father in law name" required>
+                            <label>ㅤ</label>
+                            <input type="text" name="keluarga_darurat" placeholder="Hubungan" required>
                         </div>
 
                         <div class="input-field">
-                            <label>Mother in Law</label>
-                            <input type="text" placeholder="Mother in law name" required>
+                            <label>ㅤ</label>
+                            <input type="text" name="nomor_keluarga_darurat" placeholder="Alamat" required>
                         </div>
                     </div>
 
@@ -183,9 +197,9 @@
                             <span class="btnText">Back</span>
                         </div>
 
-                        <button class="sumbit">
-                            <span class="btnText">Submit</span>
-                            <i class="uil uil-navigator"></i>
+                        <button class="submit">
+                            <span href="<?= base_url('formulir/proses'); ?>" class="btnText">Submit</span>
+                            <i class=" uil uil-navigator"></i>
                         </button>
                     </div>
                 </div>
