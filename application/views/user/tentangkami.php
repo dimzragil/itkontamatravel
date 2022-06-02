@@ -121,7 +121,7 @@
         </div>
       </article>
       <div class="thumbnail-mary-description">
-        <h5 class="thumbnail-mary-project"><a href="#">France</a></h5><span class="thumbnail-mary-decor"></span>
+        <h5 class="thumbnail-mary-project"><a href="#">Madinah</a></h5><span class="thumbnail-mary-decor"></span>
         <h5 class="thumbnail-mary-time">
         </h5>
       </div>
@@ -129,13 +129,13 @@
     <div class="owl-item">
       <!-- Thumbnail Classic-->
       <article class="thumbnail thumbnail-mary">
-        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-12-420x308.jpg" alt="" width="420" height="308" />
+        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/mekkah572.jpg" alt="" width="420" height="308" />
         </div>
         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-12-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-12-420x308.jpg" alt="" width="420" height="308" /></a>
         </div>
       </article>
       <div class="thumbnail-mary-description">
-        <h5 class="thumbnail-mary-project"><a href="#">Italy</a></h5><span class="thumbnail-mary-decor"></span>
+        <h5 class="thumbnail-mary-project"><a href="#">Mekkah</a></h5><span class="thumbnail-mary-decor"></span>
         <h5 class="thumbnail-mary-time">
         </h5>
       </div>
@@ -157,7 +157,7 @@
     <div class="owl-item">
       <!-- Thumbnail Classic-->
       <article class="thumbnail thumbnail-mary">
-        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-14-420x308.jpg" alt="" width="420" height="308" />
+        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/Dubai752.jpg" alt="" width="420" height="308" />
         </div>
         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-14-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-14-420x308.jpg" alt="" width="420" height="308" /></a>
         </div>
