@@ -28,7 +28,7 @@
                      <img src="images/logo.png" alt="">
                  </div>
 
-                 <span class="logo_name">CodingLab</span>
+                 <span class="logo_name">ITKONTAMA TRAVEL</span>
              </div>
 
              <div class="menu-items">
