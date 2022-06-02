@@ -182,12 +182,12 @@
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="text" name="keluarga_darurat" placeholder="Hubungan" required>
+                            <input type="text" name="nomor_keluarga_darurat" placeholder="Hubungan" required>
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="text" name="nomor_keluarga_darurat" placeholder="Alamat" required>
+                            <input type="text" name="alamat_keluarga_darurat" placeholder="Alamat" required>
                         </div>
                     </div>
 

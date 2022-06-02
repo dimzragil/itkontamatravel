@@ -25,7 +25,6 @@ class Formulir extends CI_Controller
         $this->form_validation->set_rules('program', 'Program', 'required');
         $this->form_validation->set_rules('nama', 'Nama', 'required');
         $this->form_validation->set_rules('no_id', 'No_Id', 'required');
-        $this->form_validation->set_rules('nama_ayah', 'Nama_Ayah', 'required');
 
         if ($this->form_validation->run() == false) {
             $this->load->view('user/pendaftaran', $data);
