@@ -4,7 +4,7 @@
     <div class="container">
       <h2 class="breadcrumbs-custom-title">About</h2>
     </div>
-    <div class="box-position" style="background-image: url(<?= base_url('assets2/'); ?>images/logoo2.jpg);"></div>
+    <div class="box-position" style="background-image: url(<?= base_url('assets2/'); ?>images/arabicabout2.jpg);"></div>
   </div>
 </section>
 <!-- Why choose us-->
@@ -115,7 +115,7 @@
     <div class="owl-item">
       <!-- Thumbnail Classic-->
       <article class="thumbnail thumbnail-mary">
-        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-11-420x308.jpg" alt="" width="420" height="308" />
+        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/Madinahtentang.jpg" alt="" width="420" height="308" />
         </div>
         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-11-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-11-420x308.jpg" alt="" width="420" height="308" /></a>
         </div>
@@ -171,13 +171,13 @@
     <div class="owl-item">
       <!-- Thumbnail Classic-->
       <article class="thumbnail thumbnail-mary">
-        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/gallery-image-15-420x308.jpg" alt="" width="420" height="308" />
+        <div class="thumbnail-mary-figure"><img src="<?= base_url('assets2/'); ?>images/balad775.jpg" alt="" width="420" height="308" />
         </div>
         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-15-1200x800-original.jpg" data-lightgallery="item"><img src="<?= base_url('assets2/'); ?>images/gallery-image-15-420x308.jpg" alt="" width="420" height="308" /></a>
         </div>
       </article>
       <div class="thumbnail-mary-description">
-        <h5 class="thumbnail-mary-project"><a href="#">Spain</a></h5><span class="thumbnail-mary-decor"></span>
+        <h5 class="thumbnail-mary-project"><a href="#">Balad</a></h5><span class="thumbnail-mary-decor"></span>
         <h5 class="thumbnail-mary-time">
         </h5>
       </div>
@@ -185,13 +185,13 @@
     <div class="owl-item">
       <!-- Thumbnail Classic-->
       <article class="thumbnail thumbnail-mary">
-        <div class="thumbnail-mary-figure"><img src="images/gallery-image-16-420x308.jpg" alt="" width="420" height="308" />
+        <div class="thumbnail-mary-figure"><img src="images/corniche772.jpg" alt="" width="420" height="308" />
         </div>
         <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="<?= base_url('assets2/'); ?>images/gallery-image-16-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-16-420x308.jpg" alt="" width="420" height="308" /></a>
         </div>
       </article>
       <div class="thumbnail-mary-description">
-        <h5 class="thumbnail-mary-project"><a href="#">Africa</a></h5><span class="thumbnail-mary-decor"></span>
+        <h5 class="thumbnail-mary-project"><a href="#">Corniche</a></h5><span class="thumbnail-mary-decor"></span>
         <h5 class="thumbnail-mary-time">
         </h5>
       </div>
@@ -202,7 +202,7 @@
 <!--Counters-->
 <!-- Counter Classic-->
 <section class="section section-fluid bg-default">
-  <div class="parallax-container" data-parallax-img="<?= base_url('assets2/'); ?>images/bg-counter-2.jpg">
+  <div class="parallax-container" data-parallax-img="<?= base_url('assets2/'); ?>images/teknologi22.jpg">
     <div class="parallax-content section-xl context-dark bg-overlay-26">
       <div class="container">
         <div class="row row-50 justify-content-center border-classic">
