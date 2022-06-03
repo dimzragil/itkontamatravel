@@ -21,6 +21,7 @@
     <div class="container">
         <header>Formulir Pendaftaran</header>
 
+        <?= $this->session->flashdata('message'); ?>
         <form method="POST" action="<?= base_url('formulir/proses'); ?>">
             <div class="form first">
                 <div class="details personal">
@@ -29,12 +30,12 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Nama Lengkap</label>
-                            <input type="text" name="nama" placeholder="Enter your name" required>
+                            <input type="text" name="nama" placeholder="Enter your name">
                         </div>
 
                         <div class="input-field">
                             <label>Tempat Lahir</label>
-                            <input type="text" name="tempat_lahir" placeholder="Enter Place" required>
+                            <input type="text" name="tempat_lahir" placeholder="Enter Place">
                         </div>
 
                         <div class="input-field">
@@ -44,15 +45,15 @@
 
                         <div class="input-field">
                             <label>Nomor Telepon</label>
-                            <input type="number" name="telp_hp" placeholder="Enter mobile number" required>
+                            <input type="number" name="telp_hp" placeholder="Enter mobile number">
                         </div>
 
                         <div class="input-field">
                             <label>Jenis Kelamin</label>
                             <select name="jenis_kelamin" required>
                                 <option disabled selected>Select gender</option>
-                                <option>Laki-Laki</option>
-                                <option>Perempuan</option>
+                                <option value="Laki-Laki">Laki-Laki</option>
+                                <option value="Perempuan">Perempuan</option>
                             </select>
                         </div>
 
@@ -73,12 +74,12 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>No. Identitas (KTP/NIK/SIM)</label>
-                            <input type="text" name="no_id" placeholder="Enter ID type" required>
+                            <input type="number" name="no_id" placeholder="Enter ID type">
                         </div>
 
                         <div class="input-field">
                             <label>No. Paspor</label>
-                            <input type="number" name="no_paspor" placeholder="Enter ID number" required>
+                            <input type="number" name="no_paspor" placeholder="Enter ID number">
                         </div>
 
                         <div class="input-field">
@@ -88,7 +89,7 @@
 
                         <div class="input-field">
                             <label>Tempat Dikeluarkan Paspor</label>
-                            <input type="text" name="keluar_paspor" placeholder="Enter issued state" required>
+                            <input type="text" name="keluar_paspor" placeholder="Enter issued state">
                         </div>
 
                         <div class="input-field">
@@ -98,7 +99,7 @@
 
                         <div class="input-field">
                             <label>Email</label>
-                            <input type="email" name="email" placeholder="Enter your email" required>
+                            <input type="email" name="email" placeholder="Enter your email">
                         </div>
                     </div>
 
@@ -116,12 +117,12 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Jalan</label>
-                            <input type="text" name="alamat" placeholder="Jalan" required>
+                            <input type="text" name="alamat" placeholder="Jalan">
                         </div>
 
                         <div class="input-field">
                             <label>Kota</label>
-                            <input type="text" name="alamat" placeholder="Enter Kota" required>
+                            <input type="text" name="alamat" placeholder="Enter Kota">
                         </div>
 
                         <div class="input-field">
@@ -135,7 +136,7 @@
 
                         <div class="input-field">
                             <label>Golongan Darah</label>
-                            <input type="text" name="goldar" placeholder="A/B/AB/O" required>
+                            <input type="text" name="goldar" placeholder="A/B/AB/O">
                         </div>
 
                         <div class="input-field">
@@ -151,7 +152,7 @@
 
                         <div class="input-field">
                             <label>Pekerjaan</label>
-                            <input type="text" name="pekerjaan" placeholder="Enter Pekerjaan" required>
+                            <input type="text" name="pekerjaan" placeholder="Enter Pekerjaan">
                         </div>
                     </div>
                 </div>
@@ -162,32 +163,32 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Keluarga Yang Ikut Umroh</label>
-                            <input type="text" name="keluarga_ikut_umroh" placeholder="Nama" required>
+                            <input type="text" name="keluarga_ikut_umroh" placeholder="Nama">
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="text" name="keluarga_ikut_umroh" placeholder="Hubungan" required>
+                            <input type="text" name="keluarga_ikut_umroh" placeholder="Hubungan">
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="number" name="nomor_keluarga_ikut_umroh" placeholder="Nomor Telepon" required>
+                            <input type="number" name="nomor_keluarga_ikut_umroh" placeholder="Nomor Telepon">
                         </div>
 
                         <div class="input-field">
                             <label>Keluarga Yang Dapat Dihubungi (Darurat)</label>
-                            <input type="text" name="keluarga_darurat" placeholder="Nama" required>
+                            <input type="text" name="keluarga_darurat" placeholder="Nama">
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="text" name="nomor_keluarga_darurat" placeholder="Hubungan" required>
+                            <input type="number" name="nomor_keluarga_darurat" placeholder="Hubungan">
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="text" name="alamat_keluarga_darurat" placeholder="Alamat" required>
+                            <input type="text" name="alamat_keluarga_darurat" placeholder="Alamat">
                         </div>
                     </div>
 
