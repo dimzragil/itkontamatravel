@@ -30,12 +30,12 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Nama Lengkap</label>
-                            <input type="text" name="nama" placeholder="Enter your name">
+                            <input type="text" name="nama" placeholder="Enter your name" required>
                         </div>
 
                         <div class="input-field">
                             <label>Tempat Lahir</label>
-                            <input type="text" name="tempat_lahir" placeholder="Enter Place">
+                            <input type="text" name="tempat_lahir" placeholder="Enter Place" required>
                         </div>
 
                         <div class="input-field">
@@ -45,7 +45,7 @@
 
                         <div class="input-field">
                             <label>Nomor Telepon</label>
-                            <input type="number" name="telp_hp" placeholder="Enter mobile number">
+                            <input type="number" name="telp_hp" placeholder="Enter mobile number" required>
                         </div>
 
                         <div class="input-field">
@@ -74,12 +74,12 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>No. Identitas (KTP/NIK/SIM)</label>
-                            <input type="number" name="no_id" placeholder="Enter ID type">
+                            <input type="number" name="no_id" placeholder="Enter ID type" required>
                         </div>
 
                         <div class="input-field">
                             <label>No. Paspor</label>
-                            <input type="number" name="no_paspor" placeholder="Enter ID number">
+                            <input type="number" name="no_paspor" placeholder="Enter ID number" required>
                         </div>
 
                         <div class="input-field">
@@ -89,7 +89,7 @@
 
                         <div class="input-field">
                             <label>Tempat Dikeluarkan Paspor</label>
-                            <input type="text" name="keluar_paspor" placeholder="Enter issued state">
+                            <input type="text" name="keluar_paspor" placeholder="Enter issued state" required>
                         </div>
 
                         <div class="input-field">
@@ -99,7 +99,7 @@
 
                         <div class="input-field">
                             <label>Email</label>
-                            <input type="email" name="email" placeholder="Enter your email">
+                            <input type="email" name="email" placeholder="Enter your email" required>
                         </div>
                     </div>
 
@@ -117,12 +117,12 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Jalan</label>
-                            <input type="text" name="alamat" placeholder="Jalan">
+                            <input type="text" name="alamat" placeholder="Jalan" required>
                         </div>
 
                         <div class="input-field">
                             <label>Kota</label>
-                            <input type="text" name="alamat" placeholder="Enter Kota">
+                            <input type="text" name="alamat" placeholder="Enter Kota" required>
                         </div>
 
                         <div class="input-field">
@@ -152,7 +152,7 @@
 
                         <div class="input-field">
                             <label>Pekerjaan</label>
-                            <input type="text" name="pekerjaan" placeholder="Enter Pekerjaan">
+                            <input type="text" name="pekerjaan" placeholder="Enter Pekerjaan" required>
                         </div>
                     </div>
                 </div>
@@ -163,32 +163,32 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Keluarga Yang Ikut Umroh</label>
-                            <input type="text" name="keluarga_ikut_umroh" placeholder="Nama">
+                            <input type="text" name="keluarga_ikut_umroh" placeholder="Nama" required>
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="text" name="keluarga_ikut_umroh" placeholder="Hubungan">
+                            <input type="text" name="keluarga_ikut_umroh" placeholder="Hubungan" required>
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="number" name="nomor_keluarga_ikut_umroh" placeholder="Nomor Telepon">
+                            <input type="number" name="nomor_keluarga_ikut_umroh" placeholder="Nomor Telepon" required>
                         </div>
 
                         <div class="input-field">
                             <label>Keluarga Yang Dapat Dihubungi (Darurat)</label>
-                            <input type="text" name="keluarga_darurat" placeholder="Nama">
+                            <input type="text" name="keluarga_darurat" placeholder="Nama" required>
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="number" name="nomor_keluarga_darurat" placeholder="Hubungan">
+                            <input type="number" name="nomor_keluarga_darurat" placeholder="Nomor" required>
                         </div>
 
                         <div class="input-field">
                             <label>ㅤ</label>
-                            <input type="text" name="alamat_keluarga_darurat" placeholder="Alamat">
+                            <input type="text" name="alamat_keluarga_darurat" placeholder="Alamat" required>
                         </div>
                     </div>
 

@@ -22,16 +22,16 @@ class Formulir extends CI_Controller
     {
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
-        $this->form_validation->set_rules('program', 'Program', 'required');
-        $this->form_validation->set_rules('nama', 'Nama', 'required', 'alpha');
-        $this->form_validation->set_rules('no_id', 'No_Id', 'required', 'numeric');
-        $this->form_validation->set_rules('tempat_lahir', 'Tempat_Lahir', 'required', 'alpha');
-        $this->form_validation->set_rules('no_paspor', 'No_Paspor', 'required', 'numeric');
-        $this->form_validation->set_rules('keluar_paspor', 'Keluar_Paspor', 'required', 'alpha');
+        $this->form_validation->set_rules('nama', 'Nama', 'required|trim|alpha');
+        $this->form_validation->set_rules('tempat_lahir', 'Tempat_Lahir', 'required|trim|alpha');
+        $this->form_validation->set_rules('keluar_paspor', 'Keluar_Paspor', 'required|trim|alpha');
         $this->form_validation->set_rules('goldar', 'Goldar', 'alpha');
-        $this->form_validation->set_rules('alamat', 'Alamat', 'required', 'alpha');
-        $this->form_validation->set_rules('email', 'Email', 'required', 'valid_email');
-        $this->form_validation->set_rules('pekerjaan', 'Pekerjaan', 'required', 'alpha');
+        $this->form_validation->set_rules('alamat', 'Alamat', 'required|trim|alpha');
+        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
+        $this->form_validation->set_rules('pekerjaan', 'Pekerjaan', 'required|trim|alpha');
+        $this->form_validation->set_rules('keluarga_ikut_umroh', 'Keluarga_Ikut_Umroh', 'alpha');
+        $this->form_validation->set_rules('keluarga_darurat', 'Keluarga_Darurat', 'required|trim|alpha');
+        $this->form_validation->set_rules('alamat_keluarga_darurat', 'Alamat_Keluarga_Darurat', 'required|trim|alpha');
 
 
         if ($this->form_validation->run() == false) {
