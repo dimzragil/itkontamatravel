@@ -6,7 +6,7 @@
         <div class="sidebar-brand-icon rotate">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">ADMIN ITKONTAMA TRAVEL</div>
+        <div class="sidebar-brand-text mx-3"></div>
     </a>
 
     <!-- Divider -->
