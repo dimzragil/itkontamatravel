@@ -16,36 +16,36 @@ class User extends CI_Controller
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 
-        $this->load->view('user/navbar-user', $data);
+        $this->load->view('templates/navbar-user', $data);
         $this->load->view('user/index', $data);
-        $this->load->view('user/footer-user', $data);
+        $this->load->view('templates/footer-user', $data);
     }
     public function tentangkami()
     {
 
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
-        $this->load->view('user/navbar-user', $data);
+        $this->load->view('templates/navbar-user', $data);
         $this->load->view('user/tentangkami', $data);
-        $this->load->view('user/footer-user', $data);
+        $this->load->view('templates/footer-user', $data);
     }
     public function kontak()
     {
 
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
-        $this->load->view('user/navbar-user', $data);
+        $this->load->view('templates/navbar-user', $data);
         $this->load->view('user/kontak', $data);
-        $this->load->view('user/footer-user', $data);
+        $this->load->view('templates/footer-user', $data);
     }
     public function layanan()
     {
 
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
-        $this->load->view('user/navbar-user', $data);
+        $this->load->view('templates/navbar-user', $data);
         $this->load->view('user/layanan', $data);
-        $this->load->view('user/footer-user', $data);
+        $this->load->view('templates/footer-user', $data);
     }
 
     public function edit()
