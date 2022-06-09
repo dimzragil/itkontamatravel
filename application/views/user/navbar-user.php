@@ -86,7 +86,7 @@
                                             </a>
                                             <!-- Dropdown - User Information -->
                                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                                                <a class="dropdown-item" href="#">
+                                                <a class="dropdown-item" href="<?= base_url('user/profile'); ?>">
                                                     <i class=" mr-2 text-gray-400"></i>
                                                     Profile
                                                 </a>

@@ -153,4 +153,11 @@ class User extends CI_Controller
         $this->load->view('user/formulirH', $data);
         $this->load->view('user/formulir', $data);
     }
+
+    public function profile()
+    {
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+
+        $this->load->view('user/profile', $data);
+    }
 }
