@@ -34,7 +34,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Edit Profile</div>
+                <div class="sidebar-brand-text mx-3">Profile</div>
             </a>
 
             <!-- Divider -->
@@ -42,7 +42,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('user/edit'); ?>">
+                <a class="nav-link" href="<?= base_url('user/editUser'); ?>">
                     <i class="fas fa-fw fa-pen"></i>
                     <span>Edit Profile</span></a>
             </li>
